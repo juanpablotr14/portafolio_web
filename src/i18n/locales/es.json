@@ -1,0 +1,109 @@
+{
+  "Metadata": {
+    "description": "Desarrollador Frontend especializado en React y Next. Experto en crear interfaces modernas y optimizadas, con conocimientos de backend para soluciones completas"
+  },
+  "Header": {
+    "about_me": "Sobre mi",
+    "contact": "Contacto",
+    "english": "Inglés",
+    "experience": "Experiencia",
+    "home": "Inicio",
+    "language": "Idioma",
+    "portuguese": "Portugués",
+    "proyects": "Proyectos",
+    "spanish": "Español",
+    "technologies": "Tecnologías"
+  },
+  "Hero": {
+    "greeting": "Hola",
+    "my_name_is": "Mi nombre es",
+    "i_am": "Soy un",
+    "developer": "Desarrollador",
+    "of_software": "de Software",
+    "of_apps": "de Apps"
+  },
+  "Experience": {
+    "title": "Experiencia laboral",
+    "length": "5",
+    "0": {
+      "id": "0",
+      "company": "Bepsa",
+      "company_url": "https://www.bepsa.com.py/",
+      "company_logo": "/company_logos/bepsa.webp",
+      "position": "Desarrollador FrontEnd",
+      "from_date": "Noviembre 2024 - Actualmente",
+      "description": "Me encargo de facilitar el desarrollo a otros equipos mediante la creación de librerías internas, el mantenimiento de estándares de calidad, la implementación de buenas prácticas y la elaboración de documentación técnica con React y Vite usando Scrum como metolodía ágil.",
+     "technologies": "typescript,react,shadcn,tailwind_css,auth0,react_query,storybook,gitlab,git"
+    },
+    "1": {
+      "id": 1,
+      "position": "Desarrollador Móvil",
+      "company_url": "https://www.facebook.com/profile.php?id=100063883334434",
+      "company_logo": "/company_logos/bdp.webp",
+      "company": "Bebidas del Paraguay",
+      "from_date": "Octubre 2023 - Noviembre 2024",
+      "description": "Desarrollo de aplicación móvil ecommerce con React Native y TypeScript siguiendo la metodología ágil Scrum.",
+      "technologies": "typescript,react,react_native,zustand,react_query,jest,testing_library,git"
+    },
+    "2": {
+      "id": 2,
+      "position": "Desarrollador FrontEnd",
+      "company": "Mega Digital",
+      "company_url": "https://www.megadigital.com.py/",
+      "company_logo": "/company_logos/mega_digital.webp",
+      "from_date": "Mayo 2023 - Octubre 2023",
+      "description": "Desarrollo de plataforma web empresarial que permite automatizar envío de cobranzas, gestionar equipos de trabajo y ver métricas desarrollado en Next.js. Desarrollo de aplicación móvil de atención al cliente en tiempo real con React Native y Socket.IO.",
+      "technologies": "javascript,react,react_native,next_js,socket_io,material_ui,git"
+    },
+    "3": {
+      "id": 3,
+      "company": "Innovatica",
+      "position": "Desarrollador FrontEnd",
+      "company_url": "https://innovatica.com.py/",
+      "company_logo": "/company_logos/innovatica.webp",
+      "from_date": "Octubre 2022 - Mayo 2023",
+      "description": "Fábrica de software a medida para clientes de EE. UU. con React y React Native. Creación de componentes reutilizables siguiendo diseños de Figma.",
+      "technologies": "javascript,react,react_native,material_ui,docker,git,figma"
+    },
+    "4": {
+      "id": 4,
+      "company": "Cabaña Los Troncos",
+      "company_url": "https://www.clt.com.py/",
+      "company_logo": "/company_logos/clt.webp",
+      "position": "Desarrollador de Software",
+      "from_date": "Julio 2022 - Octubre 2022",
+      "description": "Desarrollo de software empresarial bancario usando .NET Core y SQL.",
+      "technologies": ".net,sql"
+    }
+  },
+  "Technologies": {
+    "title": "Tecnologías"
+  },
+  "Contact": {
+    "title": "Contactame",
+    "full_name": "Nombre completo",
+    "email": "Correo Electrónico",
+    "subject": "Asunto",
+    "message": "Mensaje",
+    "submit": "Enviar",
+    "full_name_placeholder": "Ingresa aquí tu nombre completo",
+    "email_placeholder": "example@example.com",
+    "subject_placeholder": "Escribe aquí el asunto",
+    "message_placeholder": "Escribe aquí tu mensaje",
+    "success_message": "Mensaje enviado",
+    "success_message_body": "El mensaje se envió correctamente, me pondré en contacto contigo en la brevedad",
+    "error_message": "Hubo un error",
+    "error_message_body": "Por favor vuelve a intentarlo más tarde",
+    "email_greeting": "Hola Cayo, mi nombre es",
+    "email_reason": "Te escribo por lo siguiente",
+    "email_goodbye": "Saludos",
+    "meeting_title": "Agenda una reunión conmigo",
+    "meeting_text": "Cuentame tu idea",
+    "location": "Dirección",
+    "phone": "Teléfono"
+  },
+  "Footer": {
+    "copyright": "Todos los derechos reservados",
+    "footer_stack": "Desarrollado en"
+  }
+}

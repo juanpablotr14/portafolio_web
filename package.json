@@ -1,0 +1,42 @@
+{
+  "name": "portfolio",
+  "version": "1.0.2",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "refresh": "next build && next start",
+    "lint": "next lint",
+    "check:types": "tsc --noEmit",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@sentry/nextjs": "^9",
+    "fast-glob": "^3.3.3",
+    "next": "15.3.1",
+    "next-intl": "^4.1.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-typed": "^2.0.12"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "15.3.1",
+    "@types/node": "^20",
+    "@types/react": "19.1.2",
+    "@types/react-dom": "19.1.2",
+    "@typescript-eslint/eslint-plugin": "^8.3.0",
+    "eslint": "^8",
+    "eslint-config-next": "15.3.1",
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.10",
+    "prettier": "^3.3.3",
+    "typescript": "^5"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/react": "19.1.2",
+      "@types/react-dom": "19.1.2"
+    }
+  }
+}

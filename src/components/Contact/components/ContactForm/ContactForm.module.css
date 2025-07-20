@@ -1,0 +1,24 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2.0rem;
+  justify-content: center;
+  margin-top: 2.0rem;
+  width: 100%;
+}
+
+.btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+  margin-bottom: 2.0rem;
+}
+
+
+@media (min-width: 550px) {
+  .form {
+    width: auto;
+  }
+}

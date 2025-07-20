@@ -1,0 +1,12 @@
+.expand_container {
+  display: flex;
+  justify-content: center;
+  bottom: 0rem;
+  position: absolute;
+}
+
+@media (min-height: 620px) {
+  .expand_container {
+    bottom: 5rem;
+  }
+}

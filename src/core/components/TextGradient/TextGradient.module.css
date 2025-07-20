@@ -1,0 +1,23 @@
+.text_gradient_config {
+    background: var(--text-gradient);
+    background-clip: text;
+    transition: color 0.4s ease, background-size 0.4s ease;
+    -webkit-background-clip: text;
+}
+
+.in_hover {
+    color: inherit
+}
+
+.in_hover:hover {
+    color: transparent;
+}
+
+.text_gradient {
+    color: transparent !important;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

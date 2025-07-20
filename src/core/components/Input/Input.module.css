@@ -1,0 +1,76 @@
+.input_container {
+    position: relative;
+}
+
+.input_container input,
+.input_container textarea {
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid var(--text-color);
+    color: #fff;
+    font-size: 1.8rem;
+    height: 60px;
+    outline: none;
+    padding: 0 15px;
+    transition: border var(--transition-time);
+    width: 100%;
+}
+
+.input_container textarea {
+    min-height: 20.0rem;
+    padding: 15px;
+    resize: none;
+    scroll-padding-block: 2rem;
+}
+
+.input_container label {
+    color: var(--text-color);
+    font-size: 19px;
+    left: 15px;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: all var(--transition-time);
+}
+
+.input_container input:focus,
+.input_container textarea:focus {
+    border: 1px solid var(--gradient-color);
+}
+
+.input_container input:focus~label,
+.input_container input:-webkit-autofill~label,
+.input_container textarea:focus~label,
+.input_container input:not(:placeholder-shown)~label,
+.input_container textarea:not(:placeholder-shown)~label {
+    background: #030713;
+    font-size: 17px;
+    left: 15px;
+    padding: 0 2px;
+    top: 0px;
+}
+
+.input_container input:-webkit-autofill,
+.input_container textarea:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px #030713 inset;
+    box-shadow: 0 0 0 1000px #030713 inset;
+}
+
+.input_container input:placeholder-shown:not(:focus)::placeholder, 
+.input_container textarea:placeholder-shown:not(:focus)::placeholder  {
+    color: transparent;
+}
+
+.input_container input:focus::placeholder,
+.input_container textarea:focus::placeholder {
+    color: gray;
+}
+
+@media (min-width: 550px) {
+
+    .input_container input,
+    .input_container textarea {
+        min-width: 52.0rem;
+    }
+}

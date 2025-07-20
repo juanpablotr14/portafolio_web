@@ -1,0 +1,19 @@
+.cursor {
+    position: relative;
+}
+
+.cursor::after {
+    animation: cursor 1s linear 3s normal infinite;
+    border-left: 3px solid var(--text-color);
+    border-radius: 50px;
+    content: "";
+    height: clamp(3.5rem, 3.5vw, 48px);
+    margin-left: 2px;
+    position: absolute;
+}
+
+@keyframes cursor {
+    50% {
+        border-left-color: transparent;
+    }
+}

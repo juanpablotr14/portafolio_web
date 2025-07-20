@@ -1,0 +1,109 @@
+{
+  "Metadata": {
+    "description": "Frontend developer specializing in React and Next. Expert in creating modern and optimized interfaces, with backend knowledge for complete solutions."
+  },
+  "Header": {
+    "about_me": "About me",
+    "contact": "Contact",
+    "english": "English",
+    "experience": "Experience",
+    "home": "Home",
+    "language": "Language",
+    "portuguese": "Portuguese",
+    "proyects": "Proyects",
+    "spanish": "Spanish",
+    "technologies": "Technologies"
+  },
+  "Hero": {
+    "greeting": "Hi",
+    "my_name_is": "My name is",
+    "i_am": "I am a",
+    "developer": "Developer",
+    "of_software": "of Software",
+    "of_apps": "of Apps"
+  },
+  "Experience": {
+    "title": "Work experience",
+    "length": "5",
+    "0": {
+      "id": "0",
+      "company": "Bepsa",
+      "company_url": "https://www.bepsa.com.py/",
+      "company_logo": "/company_logos/bepsa.webp",
+      "position": "Frontend Developer",
+      "from_date": "November 2024 - Actually",
+      "description": "I am responsible for facilitating development for other teams through the creation of internal libraries, maintaining quality standards, implementing best practices, and producing technical documentation with React and Vite, using Scrum as an agile methodology.",
+      "technologies": "typescript,react,shadcn,tailwind_css,auth0,react_query,storybook,gitlab,git"
+    },
+    "1": {
+      "id": 1,
+      "company": "Bebidas del Paraguay",
+      "company_url": "https://www.facebook.com/profile.php?id=100063883334434",
+      "company_logo": "/company_logos/bdp.webp",
+      "position": "Mobile Developer",
+      "from_date": "October 2023 - November 2024",
+      "description": "Development of a beverage e-commerce mobile application with React Native and TypeScript following the agile Scrum methodology.",
+      "technologies": "typescript,react,react_native,zustand,react_query,jest,testing_library,git"
+    },
+    "2": {
+      "id": 2,
+      "company": "Mega Digital",
+      "company_url": "https://www.megadigital.com.py/",
+      "company_logo": "/company_logos/mega_digital.webp",
+      "position": "Frontend Developer",
+      "from_date": "May 2023 - October 2023",
+      "description": "Development of an enterprise web platform that automates invoicing, manages work teams, and provides metrics, built with Next.js. Development of a real-time customer support mobile app using React Native and Socket.IO.",
+      "technologies": "javascript,react,react_native,next_js,socket_io,material_ui,git"
+    },
+    "3": {
+      "id": 3,
+      "company": "Innovatica",
+      "company_url": "https://innovatica.com.py/",
+      "company_logo": "/company_logos/innovatica.webp",
+      "position": "Frontend Developer",
+      "from_date": "October 2022 - May 2023",
+      "description": "Custom software development for USA clients using React and React Native. Creation of reusable components following Figma designs.",
+      "technologies": "javascript,react,react_native,material_ui,docker,git,figma"
+    },
+    "4": {
+      "id": 4,
+      "company": "Cabaña Los Troncos",
+      "company_url": "https://www.clt.com.py/",
+      "company_logo": "/company_logos/clt.webp",
+      "position": "Software Developer",
+      "from_date": "July 2022 - October 2022",
+      "description": "Development of enterprise banking software using .NET Core and SQL.",
+      "technologies": ".net,sql"
+    }
+  },
+  "Technologies": {
+    "title": "My Tech Stack"
+  },
+  "Contact": {
+    "title": "Contact me",
+    "full_name": "Fullname",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message",
+    "full_name_placeholder": "Enter your fullname here",
+    "email_placeholder": "example@example.com",
+    "subject_placeholder": "Type your subject here",
+    "message_placeholder": "Type your message here",
+    "success_message": "Message sent",
+    "success_message_body": "The message was successfully sent. I will get in touch with you shortly.",
+    "error_message": "An error occurred",
+    "error_message_body": "Please try again later",
+    "email_greeting": "Hi Cayo, my name is",
+    "email_reason": "I am writing to you for the following",
+    "email_goodbye": "Best regards",
+    "meeting_title": "Schedule a meet with me",
+    "meeting_text": "Tell me your idea",
+    "location": "Address",
+    "phone": "Phone number"
+  },
+  "Footer": {
+    "copyright": "All rights reserved",
+    "footer_stack": "Developed in"
+  }
+}

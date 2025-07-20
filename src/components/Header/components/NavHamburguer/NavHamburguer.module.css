@@ -1,0 +1,58 @@
+.hamburguer{
+  position: relative;
+  width: 21px;
+  height: 21px;
+}
+
+.bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: white;
+  border-radius: 3px;
+  transition:
+    top var(--transition-time) ease var(--transition-time),
+    transform var(--transition-time) ease-out 0.1s,
+    opacity 0.1s ease var(--transition-time);
+  --middle: 6px;
+}
+
+.top {
+  top: 0px;
+}
+
+.middle {
+  top: var(--middle);
+}
+
+.bottom {
+  top: 12px;
+}
+
+.hamburguer[aria-expanded="true"] .top {
+  top: var(--middle);
+  transform: rotate(45deg);
+  transition:
+    top var(--transition-time) ease 0.1s,
+    transform var(--transition-time) ease-out var(--transition-time);
+}
+
+.hamburguer[aria-expanded="true"] .middle {
+  opacity: 0;
+  transition: opacity 0.1s ease var(--transition-time);
+}
+
+.hamburguer[aria-expanded="true"] .bottom {
+  top: var(--middle);
+  transform: rotate(-45deg);
+  transition:
+    top var(--transition-time) ease 0.1s,
+    transform var(--transition-time) ease-out var(--transition-time);
+}
+
+@media (min-width: 550px) {
+  .hamburguer {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.social_media_container {
+  align-items: center;
+  display: flex;
+  margin-top: 1.0rem;
+}
+
+.social_media_icon {
+  transform: translateY(0);
+  transition: 0.5s;
+}
+
+.social_media_icon:hover {
+  transform: translateY(5px);
+}
