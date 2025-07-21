@@ -15,11 +15,11 @@ export default function JsonLDScript(): JSX.Element {
           name: data.name,
           jobTitle: "Software Developer",
           url: data.website_url,
-          image: `${data.website_url}/social-img.webp`,
+          image: `${data.website_url}/social-img.jpg`,
           sameAs: [data.linkedin_url, data.github_url],
           address: {
             "@type": "PostalAddress",
-            addressCountry: "Paraguay",
+            addressCountry: "Cali",
           },
         }),
       }}

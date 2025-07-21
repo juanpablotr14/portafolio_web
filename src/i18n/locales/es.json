@@ -1,6 +1,6 @@
 {
   "Metadata": {
-    "description": "Desarrollador Frontend especializado en React y Next. Experto en crear interfaces modernas y optimizadas, con conocimientos de backend para soluciones completas"
+    "description": "Desarrollador fullstack junior con experiencia en multiples tecnologias y lenguajes. Donde mantengo mi aprendizaje activo y me adapto a nuevas tecnologías y marcos de trabajo."
   },
   "Header": {
     "about_me": "Sobre mi",
@@ -24,56 +24,46 @@
   },
   "Experience": {
     "title": "Experiencia laboral",
-    "length": "5",
+    "length": "4",
     "0": {
       "id": "0",
-      "company": "Bepsa",
-      "company_url": "https://www.bepsa.com.py/",
-      "company_logo": "/company_logos/bepsa.webp",
-      "position": "Desarrollador FrontEnd",
-      "from_date": "Noviembre 2024 - Actualmente",
-      "description": "Me encargo de facilitar el desarrollo a otros equipos mediante la creación de librerías internas, el mantenimiento de estándares de calidad, la implementación de buenas prácticas y la elaboración de documentación técnica con React y Vite usando Scrum como metolodía ágil.",
-     "technologies": "typescript,react,shadcn,tailwind_css,auth0,react_query,storybook,gitlab,git"
+      "company": "GPSafe - Rastrea y Protege",
+      "company_url": "",
+      "company_logo": "/company_logos/gpsafe.png",
+      "position": "Desarrollador Movil",
+      "from_date": "Marzo 2024 - Julio 2025",
+      "description": "Aplicación móvil desarrollada con Ionic para la gestión y el seguimiento de vehículos en tiempo real, diseñada para mejorar la seguridad mediante dispositivos con GPS. El sistema aprovecha una arquitectura monolítica combinada con WebSockets para obtener actualizaciones de ubicación continuas y de baja latencia, mostradas en mapas interactivos. El backend está implementado con Node.js, lo que garantiza una gestión eficiente de conexiones concurrentes, mientras que la persistencia de los datos se gestiona mediante una base de datos MongoDB para mayor escalabilidad y flexibilidad. El frontend está totalmente optimizado para plataformas iOS y Android, lo que proporciona una experiencia de usuario fluida en todos los dispositivos. La implementación se realiza en una máquina virtual de Azure, lo que garantiza un rendimiento robusto y una infraestructura en la nube fiable.",
+      "technologies": "typescript,react,node_js,mongo_db,tailwind_css,auth0,gitlab,git"
     },
     "1": {
       "id": 1,
-      "position": "Desarrollador Móvil",
-      "company_url": "https://www.facebook.com/profile.php?id=100063883334434",
-      "company_logo": "/company_logos/bdp.webp",
-      "company": "Bebidas del Paraguay",
-      "from_date": "Octubre 2023 - Noviembre 2024",
-      "description": "Desarrollo de aplicación móvil ecommerce con React Native y TypeScript siguiendo la metodología ágil Scrum.",
-      "technologies": "typescript,react,react_native,zustand,react_query,jest,testing_library,git"
+      "company": "MotulRappi",
+      "company_url": "",
+      "company_logo": "/company_logos/motul-rappi.png",
+      "position": "Desarrollador FrontEnd",
+      "from_date": "Noviembre 2024 - Febrero 2025",
+      "description": "Aplicación web diseñada para validar y gestionar descuentos y promociones para repartidores, ofreciendo incentivos con el respaldo de Motul, una de las marcas líderes de lubricantes para motocicletas del país. Desarrollada con un front-end en Angular, un back-end en Spring Boot y persistencia de datos con PostgreSQL, la plataforma opera sobre una arquitectura de microservicios orquestada con Spring Cloud y Eureka Server. Esta solución se desarrolló como parte de un proyecto freelance y forma parte de una alianza estratégica entre Motul y Rappi, que optimiza los beneficios para el personal de reparto mediante una integración fluida y una gran fiabilidad.",
+      "technologies": "typescript,angular,java,springboot,postgresql,git"
     },
     "2": {
       "id": 2,
-      "position": "Desarrollador FrontEnd",
-      "company": "Mega Digital",
-      "company_url": "https://www.megadigital.com.py/",
-      "company_logo": "/company_logos/mega_digital.webp",
-      "from_date": "Mayo 2023 - Octubre 2023",
-      "description": "Desarrollo de plataforma web empresarial que permite automatizar envío de cobranzas, gestionar equipos de trabajo y ver métricas desarrollado en Next.js. Desarrollo de aplicación móvil de atención al cliente en tiempo real con React Native y Socket.IO.",
-      "technologies": "javascript,react,react_native,next_js,socket_io,material_ui,git"
+      "company": "Netflix Clone",
+      "position": "Desarrollador Full Stack",
+      "company_url": "",
+      "company_logo": "/company_logos/netflix_clone.webp",
+      "from_date": "Julio 2023 - Noviembre 2023",
+      "description": "Clon de Netflix, una plataforma de streaming desarrollada con Nest.js en el backend, Angular en el frontend y una base de datos MongoDB. Replica las características y funcionalidades principales del popular servicio de streaming, permitiendo a los usuarios explorar y ver sus películas y series favoritas.",
+      "technologies": "typescript,angular,docker,NestJS,git,mongo_db"
     },
     "3": {
       "id": 3,
-      "company": "Innovatica",
       "position": "Desarrollador FrontEnd",
-      "company_url": "https://innovatica.com.py/",
-      "company_logo": "/company_logos/innovatica.webp",
-      "from_date": "Octubre 2022 - Mayo 2023",
-      "description": "Fábrica de software a medida para clientes de EE. UU. con React y React Native. Creación de componentes reutilizables siguiendo diseños de Figma.",
-      "technologies": "javascript,react,react_native,material_ui,docker,git,figma"
-    },
-    "4": {
-      "id": 4,
-      "company": "Cabaña Los Troncos",
-      "company_url": "https://www.clt.com.py/",
-      "company_logo": "/company_logos/clt.webp",
-      "position": "Desarrollador de Software",
-      "from_date": "Julio 2022 - Octubre 2022",
-      "description": "Desarrollo de software empresarial bancario usando .NET Core y SQL.",
-      "technologies": ".net,sql"
+      "company": "TuDefensa",
+      "company_url": "",
+      "company_logo": "/company_logos/tudefensa.png",
+      "from_date": "Diciembre 2022 - Diciembre 2023",
+      "description": "Aplicación web desarrollada como parte de un trabajo freelance para la gestión automática de servicios legales como tutelas, derechos de petición, entre otros. Desarrollada en conjunto con mi equipo de trabajo, con tecnologías como Angular para el diseño y la arquitectura del front-end y Spring Boot para la arquitectura del back-end y su conexión a la base de datos PostgreSQL, aprovechando las numerosas ventajas que ofrece Spring, como Spring Security y Spring Data JPA.",
+      "technologies": "typescript,angular,java,springboot,postgresql,git"
     }
   },
   "Technologies": {

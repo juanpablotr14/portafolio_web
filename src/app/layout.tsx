@@ -46,7 +46,7 @@ export default async function RootLayout({
 
 const { name, linkedin_url, country } = data;
 const websiteTitle = `${name} - Software Developer`;
-const websiteOgImage = `${data.website_url}/social-img.webp`;
+const websiteOgImage = `${data.website_url}/social-img.jpg`;
 
 export async function generateMetadata(): Promise<Metadata> {
   const translate = await getTranslations("Metadata");
@@ -104,7 +104,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: data.website_url,
     },
     openGraph: {
-      alternateLocale: ["en_US", "pt_BR", "es_MX", "en_GB"],
+      alternateLocale: ["en_US", "es_MX", "en_GB"],
       countryName: country,
       description,
       images: [
@@ -123,7 +123,7 @@ export async function generateMetadata(): Promise<Metadata> {
       url: data.website_url,
     },
     twitter: {
-      creator: "@cayo_legal",
+      creator: "@juanpablotr14",
       description,
       images: [
         {
